@@ -1,0 +1,24 @@
+https://www.facebook.com/KhilgaonGovt.HighSchool/
+
+<i class="fab fa-facebook-square"></i>
+
+fa fa-facebook-official
+
+<i class="fa fa-facebook-official" aria-hidden="true"></i>
+
+https://bd.linkedin.com/company/kghsc
+
+https://twitter.com/pitter_ed
+
+https://www.instagram.com/edwardpitter/
+
+<i class="fab fa-linkedin-in"></i>
+<i class="fab fa-linkedin"></i>
+
+<i class="fab fa-twitter-square"></i>
+
+<i class="fad fa-atlas"></i>
+
+http://www.khilgaonghs.edu.bd/
+
+<i class="fas fa-envelope-square"></i>

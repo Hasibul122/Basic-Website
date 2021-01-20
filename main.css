@@ -1,0 +1,156 @@
+:root {
+    --gradient: linear-gradient(
+        45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871
+    );
+}
+
+.box {
+    border: 0;
+    width: 100%;
+    
+}
+
+.boxbar {
+    border: 0;
+    padding: 0.5em 1.5em;
+    font-size: 1.5rem;
+    background-image: var(--gradient);
+    background-size: 300%;  
+    background-position: left; 
+    animation: Gradient 5s ease infinite;
+}
+
+.boxbar:hover,
+.boxbar:focus {
+    background-position: right;
+}
+
+body {
+    font-family: Source Sans Pro;
+    background: #585252;
+    background: linear-gradient(-45deg, #576440, #68558a, #6b7050, #558a40);
+    background-size: 400% 400%;
+    animation: Gradient 5s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.boxbar li {
+    list-style: none;
+    margin: 1px 1px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 10px;
+    color: #fff;
+    border: 1px solid #ffc75f;
+    border-radius: 50%;
+    transition: .5s;
+    position: relative;
+    left: 38%;
+    letter-spacing: 2px;
+}
+
+.boxbar li:hover {
+    color: #292929;
+    border: none;
+    transition: 1s;
+    background: #e06329;
+}
+.boxbar address a {
+    float: right;
+    text-decoration: none; 
+    color: rgb(134, 34, 64);
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+.boxbar i {
+    color: black;
+    
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #4d3e29;
+}
+
+h1:hover {
+    color: rgb(224, 89, 89);
+    transition: .8s;
+    
+}
+
+.search {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 30px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.search:hover{
+    box-shadow: 0 0 24px #2f3640, 0 0 24px rgba(0, 0, 0.8);
+}
+
+.search:hover > input {
+    width: 200px;
+    padding: 0 6px;
+}
+
+.search:hover > .searchButton{
+    background: #f9f871;
+    color: #2f3640;
+}
+
+.searchButton {
+    color: #eb5757;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border: none;
+}
+
+.searchButton i {
+    font-size: 30px;
+    color: tomato;
+}
+
+.input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+
